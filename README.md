@@ -39,7 +39,7 @@ The first figure below shows the window of this pipeline. This window contains t
 
 ## Change pipeline option
 
-In the mri_synthstrip.json file, the user can choose some option to run SAMEG:
+In the mri_synthstrip.json file, the user can choose some option to run mri_synthstrip:
 
 * "use_docker": choose to run the pipeline locally using the docker image (true) or locally installed FreeSurfer (default: false)
 
