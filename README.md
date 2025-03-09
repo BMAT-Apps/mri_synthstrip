@@ -8,7 +8,7 @@ Either FreeSurfer already installed on the user's computer
 
 Or using the docker freesurfer:7.3.2
 
-You can choose which one to run by switching the option in the SAMSEG.json file
+You can choose which one to run by switching the option in the mri_synthstrip.json file
 
 ## How to cite
 
