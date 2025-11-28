@@ -3,5 +3,5 @@
 	"source_code": "mri_synthstrip.py",
 	"import_name": "mri_synthstrip",
 	"attr": "mri_synthstrip",
-	"add_info":{"use_docker":false, "sss_slurm_no":"mri_synthstrip_sss.json"}
+	"add_info":{"use_docker":false, "sss_slurm":"mri_synthstrip_sss.json"}
 }

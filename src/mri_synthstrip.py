@@ -203,6 +203,8 @@ class HelpWindow(QWidget):
 
         # Setup QTextBrowser to display the HTML content
         self.text_browser = QTextBrowser()
+        base_path = os.path.dirname(os.path.abspath(markdown_file))
+        self.text_browser.setSearchPaths([base_path])
         self.text_browser.setHtml(html_content)
 
         layout = QVBoxLayout()
